@@ -1,0 +1,75 @@
+.mine{
+    background-color: #EFEFF2;
+    height: 600px;
+    height:auto !important;
+    min-height: 750px;
+}
+.reg_top{
+    height:30px;
+    background-color: #FFFFFF;
+}
+.mine_img{
+    background-color:#FFB225 ;
+    height: 120px;
+    position: relative;
+}
+.mine_tel{
+    position: absolute;
+    top:5%;
+    left: 25%;
+    height: 80%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+.mine_tel li{
+    list-style: none;
+}
+.mine_money{
+    height: 6rem;
+    background-color: #FFFFFF;
+    display: table;
+    width: 100%;
+}
+.mine_money div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+/*.mine_hr{*/
+    /*height:40px;*/
+    /*width:1px;*/
+    /*border-left:1px #000 solid;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*margin-top: -8%;*/
+/*}*/
+.mine_B{
+    background-color: #F8F8F7;
+}
+.mine_B div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.mine_name{
+    margin-left: -8%;
+}
+.mine_name li{
+    list-style: none;
+}
+.mine_last{
+    margin-left:8%;
+}
+.mine_btn{
+    border: solid 1.2px #FFD788;
+    background-color:#F8F8F7;
+    color:#FFBE45;
+    border-right: solid 1.2px #FFD788;
+    outline: none;
+}
+.mine_list{
+    margin-bottom: 2rem;
+}.mine_list1{
+    margin-top: 2rem;
+}

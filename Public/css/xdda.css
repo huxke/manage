@@ -1,0 +1,66 @@
+#bgimg{
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index:-1;
+}
+#bgimg>img{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+.blist{
+    background-color: #AE9E98;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 5%;
+    line-height: 3rem;
+    font-weight: bold;
+}
+.blist1{
+    background-color: #000000;
+    color:#C0BBB5;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 1%;
+    line-height: 4rem;
+    font-weight: bold;
+    display: none;
+}
+.blist2{
+    background-color: #372E29;
+    color:#E3E1DB;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 1%;
+    line-height:2rem;
+    display: none;
+}
+.welcome{
+    background-color:#D6CCC5;
+    opacity: 0.66;
+    border-radius: 8px;
+    height: 25rem;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 5%;
+    text-align: center;
+    color:#6B5D58;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.blist3{
+    background-color:#D6CCC5;
+    color:#474342;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 1%;
+    line-height:6rem;
+    opacity: 0.66;
+    border-radius: 8px;
+}
+#ask,#notpass,#pass,#finish{
+    display: none;
+}

@@ -1,0 +1,61 @@
+#bgimg{
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#bgimg>img{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+.xdd_login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:20%;
+    height:50%;
+    padding:20px;
+    text-align:center;
+    transform: translate(-50%, -50%);
+    background-color: #A79F99;
+    /*opacity: 0.5;*/
+}
+.index_input{
+   background-image: url("../img/xuse.gif");
+    background-color: #F3F2F0;
+    background-repeat:no-repeat;
+    padding-left:20px;
+    outline: none;
+    border: none;
+    border-radius: 6%;
+    line-height: 2.4rem;
+    background-position: left center;
+    margin-left: 2rem;
+    /*width: 85%;*/
+}
+.index_input1{
+   background-image: url("../img/xpwd.gif");
+    background-color: #F4F3F2;
+    background-repeat:no-repeat;
+    padding-left:30px;
+    outline: none;
+    border: none;
+    border-radius: 6%;
+    line-height: 2.4rem;
+   background-position: left center;
+    margin-left: 2rem;
+    /*width: 85%;*/
+}
+.index_login{
+    width: 50%;
+    background-color:#FFFFFF;
+    border-radius:8%;
+    line-height: 1.4rem;
+    color: #635350;
+    text-align: center;
+    margin-top: 18%;
+    margin-left:22%;
+}

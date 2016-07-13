@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 可选的Bootstrap主题文件（一般不使用） -->
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap-theme.min.css"></script>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Public/css/mine.css"/>
+</head>
+<body>
+           
+ <input type="hidden" name="newurl" value={$result.data}> 
+
+<div class="mine">
+    <!--top-->
+    <div class="col-sm-12 reg_top">
+        <img src="/Public/img/back.jpg" alt=""/>
+        <span>个人主页</span>
+    </div>
+    <!--图片-->
+    <div class="mine_img">
+        <div class="col-sm-12" style="text-align: right"><a href="{:U('User/share')}"><img src="/Public/img/share2.png" alt="" /></a></div>
+        <div class="mine_tel">
+            <li><img src="/Public/img/mine1.jpg" alt="" style="border-radius: 50%;width:80px;height: 70px "/></li>
+            <li>用户名</li>
+            <li>{$result.0.phone}</li>
+        </div>
+    </div>
+    <!--money-->
+    <div class="col-sm-12 mine_money">
+        <div class="col-sm-4 ">
+            <span>{$money.allbonus.totalbonus}</span> <br/>共获得奖励
+            <!-- {$result.data} -->
+            <!-- <div id="newuer" type='newurl'>{$result.data}</div> -->
+            <div style="height:40px; width:1px; border-left:1px #AFAAA5 solid;display: inline-block;vertical-align: middle;margin-top: -8%;margin-left: 16%"></div>
+        </div>
+        <div class="col-sm-4">
+            <span >{$money.withdrawals.withdrawals}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/>已提现&nbsp;&nbsp;&nbsp;&nbsp;
+            <div style="height:40px; width:1px; border-left:1px #AFAAA5 solid;display: inline-block;vertical-align: middle;margin-top: -8%;margin-left: 25%"></div>
+        </div>
+        <!--<br/>已提现-->
+        <div class="col-sm-4">{$money['allbonus']['totalbonus']-$money['withdrawals']['withdrawals']}<br/>余额</div>
+        <!--<br/>余额-->
+    </div>
+    <div class="col-sm-12" style="height: 30px;background-color: #EFEFF2">
+        <hr style="width: 40%;border: solid 1px grey;margin-left: 0.4rem;display: inline-block;"/>
+        <div style="width: 14%;vertical-align: top;display: inline-block;margin-top: 1rem">下家小B</div>
+        <hr style="width: 40%;border: solid 1px grey;margin-left: 0.4rem;display: inline-block"/>
+    </div>
+    <!--列表项-->
+    <div class="mine_B">
+        <div class="col-sm-12 mine_list">
+        <div class="col-sm-1">
+            <img src="/Public/img/mine1.jpg" alt="" width="60px" height="63px"/>
+        </div>
+        <div class="col-sm-9 mine_name" >
+            <li>赵一</li>
+            <li>获得奖励：300</li>
+            <li>入群日期：2016/03/01</li>
+        </div>
+        <div class="col-sm-2 mine_last" >
+            <input type="button" class="mine_btn" value="提现"/>
+        </div>
+        </div>
+        <div class="col-sm-12" >
+        <div class="col-sm-1">
+            <img src="/Public/img/mine1.jpg" alt="" width="60px" height="63px"/>
+        </div>
+        <div class="col-sm-9 mine_name" >
+            <li>赵一</li>
+            <li>获得奖励：300</li>
+            <li>入群日期：2016/03/01</li>
+        </div>
+        <div class="col-sm-2 mine_last" >
+            <input type="button" class="mine_btn" value="提现"/>
+        </div>
+        </div>
+        <div class="col-sm-12 mine_list1">
+        <div class="col-sm-1">
+            <img src="/Public/img/mine1.jpg" alt="" width="60px" height="63px"/>
+        </div>
+        <div class="col-sm-9 mine_name" >
+            <li>赵一</li>
+            <li>获得奖励：300</li>
+            <li>入群日期：2016/03/01</li>
+        </div>
+        <div class="col-sm-2 mine_last" >
+            <input type="button" class="mine_btn" value="提现"/>
+        </div>
+        </div>
+        <div class="col-sm-12 mine_list1">
+        <div class="col-sm-1">
+            <img src="/Public/img/mine1.jpg" alt="" width="60px" height="63px"/>
+        </div>
+        <div class="col-sm-9 mine_name" >
+            <li>赵一</li>
+            <li>获得奖励：300</li>
+            <li>入群日期：2016/03/01</li>
+        </div>
+        <div class="col-sm-2 mine_last" >
+            <input type="button" class="mine_btn" value="提现"/>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

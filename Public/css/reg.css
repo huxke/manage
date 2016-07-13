@@ -1,0 +1,47 @@
+.reg{
+    background-color: #EFEFF2;
+    height: 600px;
+    height:auto !important;
+    min-height: 750px;
+}
+.reg_top{
+    height:30px;
+    background-color: #FFFFFF;
+}
+.reg_main{
+    background-color: #EFEEEC;
+}
+.index_input{
+    border: none;
+    outline: none;
+    background-image: none;
+    background-color: #EFEFF2;
+    font-size: 1.8rem;
+    margin-left: -1%;
+}
+.index_login{
+    width: 100%;
+    background-color:#FFB225;
+    border-radius:6%;
+    line-height: 3rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.index_login:hover{
+    width: 100%;
+    background-color:#FFB225;
+    border-radius:6%;
+    line-height: 3rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+}
+.index_login:focus{
+    outline-style: none;
+    border: none;
+}
+.reg_margin{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
